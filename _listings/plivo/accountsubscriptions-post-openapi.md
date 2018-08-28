@@ -35,6 +35,60 @@ paths:
       tags:
       - Account
       - Subscriptions
+  /account/subscriptions/{subscriptionId}:
+    delete:
+      summary: Delete Account Subscriptions Subscriptionid
+      description: 'Remove subscription from account. Roles: account/owner, system/admin.'
+      operationId: removeSubscription
+      x-api-path-slug: accountsubscriptionssubscriptionid-delete
+      parameters:
+      - in: path
+        name: subscriptionId
+        description: Subscription ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Account
+      - Subscriptions
+      - SubscriptionId
+    get:
+      summary: Get Account Subscriptions Subscriptionid
+      description: Get information on a particular subscription by its unique ID.
+      operationId: getSubscriptionById
+      x-api-path-slug: accountsubscriptionssubscriptionid-get
+      parameters:
+      - in: path
+        name: subscriptionId
+        description: Subscription ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Account
+      - Subscriptions
+      - SubscriptionId
+  /account/{accountId}/subscriptions:
+    get:
+      summary: Get Account Accountid Subscriptions
+      description: Get information on account subscriptions. This API call requires
+        account/owner, account/member, system/admin or system/manager role.
+      operationId: getSubscriptions
+      x-api-path-slug: accountaccountidsubscriptions-get
+      parameters:
+      - in: path
+        name: accountId
+        description: Account ID
+      - in: query
+        name: service
+        description: Service ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Account
+      - AccountId
+      - Subscriptions
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

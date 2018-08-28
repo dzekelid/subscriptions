@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS Redshift
 x-complete: 1
@@ -12,6 +11,34 @@ produces:
 consumes:
 - application/json
 paths:
+  /?Action=DescribeEventSubscriptions:
+    get:
+      summary: Describe Event Subscriptions
+      description: |-
+        Lists descriptions of all the Amazon Redshift event notifications subscription for a
+                    customer account.
+      operationId: describeEventSubscriptions
+      x-api-path-slug: actiondescribeeventsubscriptions-get
+      parameters:
+      - in: query
+        name: Marker
+        description: An optional parameter that specifies the starting point to return
+          a set of response            records
+        type: string
+      - in: query
+        name: MaxRecords
+        description: The maximum number of response records to return in each call
+        type: string
+      - in: query
+        name: SubscriptionName
+        description: The name of the Amazon Redshift event notification subscription
+          to be            described
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Event Subscriptions
   /?Action=CreateEventSubscription:
     get:
       summary: Create Event Subscription
@@ -77,34 +104,6 @@ paths:
           description: OK
       tags:
       - Event Subscriptions
-  /?Action=DescribeEventSubscriptions:
-    get:
-      summary: Describe Event Subscriptions
-      description: |-
-        Lists descriptions of all the Amazon Redshift event notifications subscription for a
-                    customer account.
-      operationId: describeEventSubscriptions
-      x-api-path-slug: actiondescribeeventsubscriptions-get
-      parameters:
-      - in: query
-        name: Marker
-        description: An optional parameter that specifies the starting point to return
-          a set of response            records
-        type: string
-      - in: query
-        name: MaxRecords
-        description: The maximum number of response records to return in each call
-        type: string
-      - in: query
-        name: SubscriptionName
-        description: The name of the Amazon Redshift event notification subscription
-          to be            described
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Event Subscriptions
   /?Action=ModifyEventSubscription:
     get:
       summary: Modify Event Subscription
@@ -148,4 +147,3 @@ paths:
           description: OK
       tags:
       - Event Subscriptions
----

@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS Shield
 x-complete: 1
@@ -29,4 +28,25 @@ paths:
           description: OK
       tags:
       - Subscriptions
----
+  /?Action=CreateSubscription:
+    get:
+      summary: Create Subscription
+      description: Activates AWS Shield Advanced for an account.
+      operationId: createSubscription
+      x-api-path-slug: actioncreatesubscription-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Protection
+  /?Action=DeleteSubscription:
+    get:
+      summary: Delete Subscription
+      description: Removes AWS Shield Advanced from an account.
+      operationId: deleteSubscription
+      x-api-path-slug: actiondeletesubscription-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Protection

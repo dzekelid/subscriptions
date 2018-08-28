@@ -11,100 +11,135 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Subscriptions
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-rds/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Amazon RDS API Add Source Identifier To Subscription
-  x-api-slug: amazon-rds-api
+- name: AWS RDS API - Add Source Identifier To Subscription
+  x-api-slug: actionaddsourceidentifiertosubscription-get
   description: Adds a source identifier to an existing RDS event notification subscription.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
   humanURL: https://aws.amazon.com/rds/
-  baseURL: ://///?Action=AddSourceIdentifierToSubscription
-  tags: Subscriptions
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-rds/actionaddsourceidentifiertosubscription-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-rds/actionaddsourceidentifiertosubscription-get-openapi.md
-- name: Amazon RDS API Create Event Subscription
-  x-api-slug: amazon-rds-api
-  description: Creates an RDS event notification subscription.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
-  humanURL: https://aws.amazon.com/rds/
-  baseURL: ://///?Action=CreateEventSubscription
-  tags: Event Subscriptions
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-rds/actioncreateeventsubscription-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-rds/actioncreateeventsubscription-get-openapi.md
-- name: Amazon RDS API Delete Event Subscription
-  x-api-slug: amazon-rds-api
-  description: Deletes an RDS event notification subscription.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
-  humanURL: https://aws.amazon.com/rds/
-  baseURL: ://///?Action=DeleteEventSubscription
-  tags: Event Subscriptions
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-rds/actiondeleteeventsubscription-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-rds/actiondeleteeventsubscription-get-openapi.md
-- name: Amazon RDS API Describe Event Subscriptions
-  x-api-slug: amazon-rds-api
-  description: Lists all the subscription descriptions for a customer account.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
-  humanURL: https://aws.amazon.com/rds/
-  baseURL: ://///?Action=DescribeEventSubscriptions
-  tags: Event Subscriptions
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-rds/actiondescribeeventsubscriptions-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-rds/actiondescribeeventsubscriptions-get-openapi.md
-- name: Amazon RDS API Modify Event Subscription
-  x-api-slug: amazon-rds-api
-  description: Modifies an existing RDS event notification subscription.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
-  humanURL: https://aws.amazon.com/rds/
-  baseURL: ://///?Action=ModifyEventSubscription
-  tags: Event Subscriptions
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-rds/actionmodifyeventsubscription-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-rds/actionmodifyeventsubscription-get-openapi.md
-- name: Amazon RDS API Remove Source Identifier From Subscription
-  x-api-slug: amazon-rds-api
+- name: AWS RDS API - Remove Source Identifier From Subscription
+  x-api-slug: actionremovesourceidentifierfromsubscription-get
   description: Removes a source identifier from an existing RDS event notification
     subscription.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
   humanURL: https://aws.amazon.com/rds/
-  baseURL: ://///?Action=RemoveSourceIdentifierFromSubscription
-  tags: Subscriptions
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-rds/actionremovesourceidentifierfromsubscription-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-rds/actionremovesourceidentifierfromsubscription-get-openapi.md
-- name: Amazon RDS API
-  x-api-slug: amazon-rds-api
-  description: Amazon Relational Database Service (Amazon RDS) makes it easy to set
-    up, operate, and scale arelational databasein the cloud. It provides cost-efficient
-    and resizable capacity while managing time-consuming database administration tasks,
-    freeing you up to focus on your applications and business. Amazon RDS provides
-    you six familiar database engines to choose from, includingAmazon Aurora,PostgreSQL,MySQL,MariaDB,Oracle,
-    andMicrosoft SQL Server.
+- name: AWS RDS API - Describe Event Subscriptions
+  x-api-slug: actiondescribeeventsubscriptions-get
+  description: Lists all the subscription descriptions for a customer account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
   humanURL: https://aws.amazon.com/rds/
   baseURL: :///
-  tags: Subscriptions
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-rds/actiondescribeeventsubscriptions-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-rds/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-rds/actiondescribeeventsubscriptions-get-openapi.md
+- name: AWS RDS API - Add Source Identifier To Subscription
+  x-api-slug: actionaddsourceidentifiertosubscription-get
+  description: Adds a source identifier to an existing RDS event notification subscription.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-rds/actionaddsourceidentifiertosubscription-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-rds/actionaddsourceidentifiertosubscription-get-openapi.md
+- name: AWS RDS API - Create Event Subscription
+  x-api-slug: actioncreateeventsubscription-get
+  description: Creates an RDS event notification subscription.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-rds/actioncreateeventsubscription-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-rds/actioncreateeventsubscription-get-openapi.md
+- name: AWS RDS API - Delete Event Subscription
+  x-api-slug: actiondeleteeventsubscription-get
+  description: Deletes an RDS event notification subscription.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-rds/actiondeleteeventsubscription-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-rds/actiondeleteeventsubscription-get-openapi.md
+- name: AWS RDS API - Describe Event Subscriptions
+  x-api-slug: actiondescribeeventsubscriptions-get
+  description: Lists all the subscription descriptions for a customer account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-rds/actiondescribeeventsubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-rds/actiondescribeeventsubscriptions-get-openapi.md
+- name: AWS RDS API - Modify Event Subscription
+  x-api-slug: actionmodifyeventsubscription-get
+  description: Modifies an existing RDS event notification subscription.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-rds/actionmodifyeventsubscription-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-rds/actionmodifyeventsubscription-get-openapi.md
+- name: AWS RDS API - Remove Source Identifier From Subscription
+  x-api-slug: actionremovesourceidentifierfromsubscription-get
+  description: Removes a source identifier from an existing RDS event notification
+    subscription.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-rds/actionremovesourceidentifierfromsubscription-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-rds/actionremovesourceidentifierfromsubscription-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.polly.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.rds.stack.network
 - type: x-articles
   url: https://aws.amazon.com/articles/Amazon-RDS
 - type: x-blog

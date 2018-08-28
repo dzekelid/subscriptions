@@ -7,61 +7,63 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebo
 x-kinRank: "9"
 x-alexaRank: "3"
 tags: Subscriptions
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/facebook/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Facebook Get Application Subscriptions
-  x-api-slug: facebook
+- name: Facebook - Get Application Subscriptions
+  x-api-slug: applicationsubscriptions-get
   description: All of the subscriptions this application has for real-time notifications.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: http:///business
-  baseURL: https://graph.facebook.com////{application}/subscriptions
-  tags: Application,Subscriptions
+  baseURL: https://graph.facebook.com//
+  tags: Social, My API Stack, Indie EdTech Data Jam, Issues Example, Facebook Stack,
+    Stack Network, Stack, internet, Technology, Mobile, API Provider, Social, Social
+    Networks, Profiles, Payments, General Data, Relative Data, Pedestal, Historical
+    Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/facebook/applicationsubscriptions-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/facebook/applicationsubscriptions-get-openapi.md
-- name: Facebook Post Application Subscriptions
-  x-api-slug: facebook
+- name: Facebook - Post Application Subscriptions
+  x-api-slug: applicationsubscriptions-post
   description: Adds a real-time notification subscription for this application.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: http:///business
-  baseURL: https://graph.facebook.com////{application}/subscriptions
-  tags: Application,Subscriptions
+  baseURL: https://graph.facebook.com//
+  tags: Social, My API Stack, Indie EdTech Data Jam, Issues Example, Facebook Stack,
+    Stack Network, Stack, internet, Technology, Mobile, API Provider, Social, Social
+    Networks, Profiles, Payments, General Data, Relative Data, Pedestal, Historical
+    Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/facebook/applicationsubscriptions-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/facebook/applicationsubscriptions-post-openapi.md
-- name: Facebook Delete Application Subscriptions
-  x-api-slug: facebook
+- name: Facebook - Delete Application Subscriptions
+  x-api-slug: applicationsubscriptions-delete
   description: Deletes a real-time notification subscription for this application.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: http:///business
-  baseURL: https://graph.facebook.com////{application}/subscriptions
-  tags: Application,Subscriptions
+  baseURL: https://graph.facebook.com//
+  tags: Social, My API Stack, Indie EdTech Data Jam, Issues Example, Facebook Stack,
+    Stack Network, Stack, internet, Technology, Mobile, API Provider, Social, Social
+    Networks, Profiles, Payments, General Data, Relative Data, Pedestal, Historical
+    Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/facebook/applicationsubscriptions-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/facebook/applicationsubscriptions-delete-openapi.md
-- name: Facebook
-  x-api-slug: facebook
-  description: Create an account or log into Facebook. Connect with friends, family
-    and other people you know. Share photos and videos, send messages and get updates.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
-  humanURL: http:///business
-  baseURL: https://graph.facebook.com//
-  tags: Subscriptions
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/facebook/openapi.md
 x-common:
 - type: x-android-sdk
   url: https://developers.facebook.com/docs/android/share
+- type: x-api-gallery
+  url: http://expedia.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://facebook.stack.network
 - type: x-apigee-console
   url: https://api.apigee.com/v1/consoles/facebook/apidescription?format=internal&ver=1386216190000
 - type: x-application-gallery

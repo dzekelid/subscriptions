@@ -16,19 +16,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /user/-{collection-path}apiSubscriptions.json:
-    get:
-      summary: Get User Collection Path Apisubscriptions.json
-      description: Get a list of user's subscriptions for your application in the
-        format requested.
-      operationId: getUserCollectionPathApisubscriptions.json
-      x-api-path-slug: usercollectionpathapisubscriptions-json-get
-      responses:
-        200:
-          description: OK
-      tags:
-      - User
-      - -collection-pathapiSubscriptions.json
   /user/-{collection-path}apiSubscriptions/{subscription-id}.json:
     delete:
       summary: Delete User Collection Path Apisubscriptions Subscription .json
@@ -36,6 +23,19 @@ paths:
         requested.
       operationId: deleteUserCollectionPathApisubscriptionsSubscription.json
       x-api-path-slug: usercollectionpathapisubscriptionssubscriptionid-json-delete
+      responses:
+        200:
+          description: OK
+      tags:
+      - User
+      - -collection-pathapiSubscriptions
+      - Subscription-id.json
+    post:
+      summary: Post User Collection Path Apisubscriptions Subscription .json
+      description: Add a subscription for the user to get notifications and get a
+        response in the format requested.
+      operationId: postUserCollectionPathApisubscriptionsSubscription.json
+      x-api-path-slug: usercollectionpathapisubscriptionssubscriptionid-json-post
       responses:
         200:
           description: OK

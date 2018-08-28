@@ -24,10 +24,10 @@ paths:
   /customers/{customer}/subscriptions:
     get:
       summary: Get Customers Customer Subscriptions
-      description: "You can see a list of the customer\u2019s active subscriptions.
-        Note that the 10 most recent active subscriptions are always available by
-        default on the customer object. If you need more than those 10, you can use
-        the limit and starting_after parameters to page through additional subscriptions."
+      description: You can see a list of the customer???s active subscriptions. Note
+        that the 10 most recent active subscriptions are always available by default
+        on the customer object. If you need more than those 10, you can use the limit
+        and starting_after parameters to page through additional subscriptions.
       operationId: getCustomersCustomerSubscriptions
       x-api-path-slug: customerscustomersubscriptions-get
       parameters:
@@ -157,22 +157,22 @@ paths:
   /customers/{customer}/subscriptions/{subscription_exposed_id}:
     delete:
       summary: Delete Customers Customer Subscriptions Subscription Exposed
-      description: "Cancels a customer\u2019s subscription. If you set the at_period_end
+      description: Cancels a customer???s subscription. If you set the at_period_end
         parameter to true, the subscription will remain active until the end of the
         period, at which point it will be canceled and not renewed. By default, the
         subscription is terminated immediately. In either case, the customer will
         not be charged again for the subscription. Note, however, that any pending
-        invoice items that you\u2019ve created will still be charged for at the end
-        of the period unless manually deleted. If you\u2019ve set the subscription
-        to cancel at period end, any pending prorations will also be left in place
-        and collected at the end of the period, but if the subscription is set to
-        cancel immediately, pending prorations will be removed.By default, all unpaid
-        invoices for the customer will be closed upon subscription cancellation. We
-        do this in order to prevent unexpected payment attempts once the customer
-        has canceled a subscription. However, you can reopen the invoices manually
-        after subscription cancellation to have us proceed with payment collection,
-        or you could even re-attempt payment yourself on all unpaid invoices before
-        allowing the customer to cancel the subscription at all."
+        invoice items that you???ve created will still be charged for at the end of
+        the period unless manually deleted. If you???ve set the subscription to cancel
+        at period end, any pending prorations will also be left in place and collected
+        at the end of the period, but if the subscription is set to cancel immediately,
+        pending prorations will be removed.By default, all unpaid invoices for the
+        customer will be closed upon subscription cancellation. We do this in order
+        to prevent unexpected payment attempts once the customer has canceled a subscription.
+        However, you can reopen the invoices manually after subscription cancellation
+        to have us proceed with payment collection, or you could even re-attempt payment
+        yourself on all unpaid invoices before allowing the customer to cancel the
+        subscription at all.
       operationId: deleteCustomersCustomerSubscriptionsSubscriptionExposed
       x-api-path-slug: customerscustomersubscriptionssubscription-exposed-id-delete
       parameters:

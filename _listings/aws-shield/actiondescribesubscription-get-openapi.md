@@ -31,6 +31,28 @@ paths:
           description: OK
       tags:
       - Subscriptions
+  /?Action=CreateSubscription:
+    get:
+      summary: Create Subscription
+      description: Activates AWS Shield Advanced for an account.
+      operationId: createSubscription
+      x-api-path-slug: actioncreatesubscription-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Protection
+  /?Action=DeleteSubscription:
+    get:
+      summary: Delete Subscription
+      description: Removes AWS Shield Advanced from an account.
+      operationId: deleteSubscription
+      x-api-path-slug: actiondeletesubscription-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Protection
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

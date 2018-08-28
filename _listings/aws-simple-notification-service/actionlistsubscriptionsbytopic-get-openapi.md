@@ -91,6 +91,56 @@ paths:
           description: OK
       tags:
       - Subscriptions
+  /?Action=SetSubscriptionAttributes:
+    get:
+      summary: Set Subscription Attributes
+      description: Allows a subscription owner to set an attribute of the topic to
+        a new value.
+      operationId: setSubscriptionAttributes
+      x-api-path-slug: actionsetsubscriptionattributes-get
+      parameters:
+      - in: query
+        name: AttributeName
+        description: The name of the attribute you want to set
+        type: string
+      - in: query
+        name: AttributeValue
+        description: The new value for the attribute in JSON format
+        type: string
+      - in: query
+        name: SubscriptionArn
+        description: The ARN of the subscription to modify
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Subscriptions
+  /?Action=Subscribe:
+    get:
+      summary: Subscribe
+      description: Prepares to subscribe an endpoint by sending the endpoint a confirmation
+        message.
+      operationId: subscribe
+      x-api-path-slug: actionsubscribe-get
+      parameters:
+      - in: query
+        name: Endpoint
+        description: The endpoint that you want to receive notifications
+        type: string
+      - in: query
+        name: Protocol
+        description: The protocol you want to use
+        type: string
+      - in: query
+        name: TopicArn
+        description: The ARN of the topic you want to subscribe to
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Endpoints
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

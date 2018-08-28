@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Azure API Management
 x-complete: 1
@@ -15,30 +14,6 @@ produces:
 consumes:
 - application/json
 paths:
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ApiManagement/service/{serviceName}/products/{productId}/subscriptions
-  : get:
-      summary: ProductSubscriptions ListByProducts
-      description: Lists the collection of subscriptions to the specified product.
-      operationId: ProductSubscriptions_ListByProducts
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameproductsproductidsubscriptions-get
-      parameters:
-      - in: query
-        name: $filter
-        description: '| Field        | Supported operators    | Supported functions                         ||--------------|------------------------|---------------------------------------------||
-          id           | ge, le, eq, ne, gt, lt | substringof, contains, startswith,
-          endswith || name         | ge, le, eq, ne, gt, lt | substringof, contains,
-          startswith, endswith || stateComment | ge, le, eq, ne, gt, lt | substringof,
-          contains, startswith, endswith || userId       | ge, le, eq, ne, gt, lt
-          | substringof, contains, startswith, endswith || productId    | ge, le,
-          eq, ne, gt, lt | substringof, contains, startswith, endswith || state        |
-          eq                     |                                             |'
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Product Subscriptions
   ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ApiManagement/service/{serviceName}/subscriptions
   : get:
       summary: Subscriptions List
@@ -163,4 +138,3 @@ paths:
           description: OK
       tags:
       - Subscriptions
----

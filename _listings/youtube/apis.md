@@ -7,53 +7,52 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-yout
 x-kinRank: "9"
 x-alexaRank: "2"
 tags: Subscriptions
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/youtube/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Youtube Delete Subscriptions
-  x-api-slug: youtube
+- name: YouTube - Delete Subscriptions
+  x-api-slug: subscriptions-delete
   description: Deletes a subscription.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
   humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//subscriptions
-  tags: Subscriptions
+  baseURL: https://www.googleapis.com//youtube/v1
+  tags: Videos, Google APIs, Stack Network, Stack, internet, Technology, Mobile, SaaS,
+    General Data, Relative Data, Service API, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/youtube/subscriptions-delete-openapi.md
-- name: Youtube Get Subscriptions
-  x-api-slug: youtube
+- name: YouTube - Get Subscriptions
+  x-api-slug: subscriptions-get
   description: Returns subscription resources that match the API request criteria.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
   humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//subscriptions
-  tags: Subscriptions
+  baseURL: https://www.googleapis.com//youtube/v1
+  tags: Videos, Google APIs, Stack Network, Stack, internet, Technology, Mobile, SaaS,
+    General Data, Relative Data, Service API, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/youtube/subscriptions-get-openapi.md
-- name: Youtube Add Subscriptions
-  x-api-slug: youtube
+- name: YouTube - Add Subscriptions
+  x-api-slug: subscriptions-post
   description: Adds a subscription for the authenticated user's channel.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
   humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//subscriptions
-  tags: Subscriptions
+  baseURL: https://www.googleapis.com//youtube/v1
+  tags: Videos, Google APIs, Stack Network, Stack, internet, Technology, Mobile, SaaS,
+    General Data, Relative Data, Service API, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/youtube/subscriptions-post-openapi.md
-- name: Youtube
-  x-api-slug: youtube
-  description: Enjoy the videos and music you love, upload original content, and share
-    it all with friends, family, and the world on YouTube.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1
-  tags: Subscriptions
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/youtube/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://yelp.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://youtube.stack.network
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
 - type: x-authentication

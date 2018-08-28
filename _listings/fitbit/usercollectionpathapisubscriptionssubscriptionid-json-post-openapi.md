@@ -16,19 +16,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /user/-{collection-path}apiSubscriptions.json:
-    get:
-      summary: Get User Collection Path Apisubscriptions.json
-      description: Get a list of user's subscriptions for your application in the
-        format requested.
-      operationId: getUserCollectionPathApisubscriptions.json
-      x-api-path-slug: usercollectionpathapisubscriptions-json-get
-      responses:
-        200:
-          description: OK
-      tags:
-      - User
-      - -collection-pathapiSubscriptions.json
   /user/-{collection-path}apiSubscriptions/{subscription-id}.json:
     delete:
       summary: Delete User Collection Path Apisubscriptions Subscription .json

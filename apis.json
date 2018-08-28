@@ -1,0 +1,1059 @@
+{
+	"name": "Streadata.io API Gallery - Subscriptions",
+	"description": "This is a repository of subscriptions APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/subscriptions.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://subscriptions.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Urban Airship",
+			"x-api-slug": "urban-airship",
+			"description": "A market-leading mobile app engagement, mobile analytics, mobile data integration and mobile wallet marketing solution.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg",
+			"humanURL": "http://urbanairship.com/",
+			"baseURL": "https://go.urbanairship.com//api/",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/urban-airship/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GitHub",
+			"x-api-slug": "github",
+			"description": "GitHub brings together the worlds largest community of developers to discover, share, and build better software. From open source projects to private team repositories, were your all-in-one platform for collaborative development.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png",
+			"humanURL": "https://github.com",
+			"baseURL": "https:///",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/github/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SendGrid",
+			"x-api-slug": "sendgrid",
+			"description": "Delivering your transactional and marketing emails through the worlds largest cloud-based email delivery platform. Send with confidence.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg",
+			"humanURL": "http://sendgrid.com",
+			"baseURL": "https:///",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/sendgrid/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Diffbot",
+			"x-api-slug": "diffbot",
+			"description": "Never write another web scraper. Diffbot automates web data extraction from any website using AI, computer vision, &amp; machine learning.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/181-diffbot.jpg",
+			"humanURL": "http://www.diffbot.com/our-apis/follow/",
+			"baseURL": "https:////",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/diffbot/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Disqus",
+			"x-api-slug": "disqus",
+			"description": "Disqus offers the best add-on tools for websites to increase engagement. We help publishers power online discussions with comments and earn revenue with native advertising.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg",
+			"humanURL": "https://disqus.com/",
+			"baseURL": "https:///",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/disqus/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Facebook",
+			"x-api-slug": "facebook",
+			"description": "Create an account or log into Facebook. Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg",
+			"humanURL": "http:///business",
+			"baseURL": "https:///",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/facebook/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Fitbit",
+			"x-api-slug": "fitbit",
+			"description": "Find your fit with Fitbits family of fitness products that help you stay motivated and improve your health by tracking your activity, exercise, food, weight and sleep.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/200-fitbit.jpg",
+			"humanURL": "http://fitbit.com",
+			"baseURL": "https://api.fitbit.com//1",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/fitbit/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Stripe",
+			"x-api-slug": "stripe",
+			"description": "Online payment processing for internet businesses. Stripe is a suite of payment APIs that powers commerce for online businesses of all sizes, including fraud prevention, and subscription management. Use Stripes payment platform to accept and process p...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg",
+			"humanURL": "https://stripe.com/",
+			"baseURL": "https://api.stripe.com/v1/",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/stripe/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PowerInbox",
+			"x-api-slug": "powerinbox",
+			"description": "Chargify is the best online billing software for all of your Recurring Billing needs. Learn more about simplifying your Subscription Billing today.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/385-powerinbox.jpg",
+			"humanURL": "http://docs.chargify.com/api-introduction",
+			"baseURL": "https:///",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/powerinbox/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Pingdom",
+			"x-api-slug": "pingdom",
+			"description": "Monitor your websites availability and performance for free with Pingdom and always be the first to know when your website is down. No installation required.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg",
+			"humanURL": "http://www.pingdom.com",
+			"baseURL": "https://api.pingdom.com//",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/pingdom/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Boxcar",
+			"x-api-slug": "boxcar",
+			"description": "For Developers: a push platform with SDKs, APIs and admin console.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/714-boxcar.jpg",
+			"humanURL": "http://boxcar.io",
+			"baseURL": "https://boxcar.io//devices/providers/%7Bprovider_key%7D/",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/boxcar/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Instructure",
+			"x-api-slug": "instructure",
+			"description": "Instructure makes software that makes smarter people. Products include Canvas LMS, Bridge and Canvas Network.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg",
+			"humanURL": "http://instructure.com",
+			"baseURL": "https://canvas.instructure.com//api/v1",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/instructure/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Plivo",
+			"x-api-slug": "plivo",
+			"description": "Voice & SMS API Platform: Plivo enables businesses and developers to tap into powerful Voice and SMS capabilities without carrier lock-in.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg",
+			"humanURL": "http:///account",
+			"baseURL": "https:///",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/plivo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ChargeBee",
+			"x-api-slug": "chargebee",
+			"description": "Chargebee lets you automate your recurring billing, manage subscriptions at scale and access metrics that matter.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1513-chargebee.jpg",
+			"humanURL": "https://chargebee.com",
+			"baseURL": "https:///",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/chargebee/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Tinypass",
+			"x-api-slug": "tinypass",
+			"description": "Piano is a simple yet powerful service that allows any web publisher to easily accept quick and secure payments for access to any type of content.    The Piano platform can process payments as small as two-cents, and doesnt require changing your site...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1589-tinypass.jpg",
+			"humanURL": "http://developer.tinypass.com/",
+			"baseURL": "https:///",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/tinypass/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "MySpace Developers",
+			"x-api-slug": "myspace-developers",
+			"description": "AskMyspace: http://askmyspace.com  Twitter: http://twitter.com/Myspace  Instagram: http://instagram.com/Myspace  Tumblr: http://myspace.tumblr.com  YouTube: http://www.youtube.com/Myspace",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1619-myspace-developers.jpg",
+			"humanURL": "http://wiki.developer.myspace.com/index.php?title=Category:RESTful_API",
+			"baseURL": "https://api.myspace.com//",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/myspace-developers/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Reddit",
+			"x-api-slug": "reddit",
+			"description": "Reddit is a community of millions of users engaging in the creation of content and the sharing of conversation across tens of thousands of topics.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg",
+			"humanURL": "http://www.reddit.com",
+			"baseURL": "https:///",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/reddit/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Meetup",
+			"x-api-slug": "meetup",
+			"description": "Find Meetups so you can do more of what matters to you. Or create your own group and meet people near you who share your interests.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg",
+			"humanURL": "http://meetup.com",
+			"baseURL": "https:///",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/meetup/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "BillingOrchard",
+			"x-api-slug": "billingorchard",
+			"description": "BillingOrchard by Payscape is an online billing and invoicing software designed to simplify the billing process and get you paid faster. BillingOrchard is a perfect solution for businesses of all sizes - especially individual contractors and freelancer...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/10317-billingorchard.jpg",
+			"humanURL": "http://www.billingorchard.com/",
+			"baseURL": "https:///",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/billingorchard/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Mynewsdesk",
+			"x-api-slug": "mynewsdesk",
+			"description": "Discover the impact of Digital PR! Monitor what is being said about your brand, create your story, identify and engage your audience and analyze the results",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11441-mynewsdesk.jpg",
+			"humanURL": "http://www.mynewsdesk.com",
+			"baseURL": "https://www.mynewsdesk.com//services/pressroom/",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/mynewsdesk/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "YouTube",
+			"x-api-slug": "youtube",
+			"description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg",
+			"humanURL": "https://www.youtube.com/",
+			"baseURL": "https://www.googleapis.com//youtube/v1",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/youtube/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CloudFlare",
+			"x-api-slug": "cloudflare",
+			"description": "Here at Cloudflare, we make the Internet work the way it should. Offering CDN, DNS, DDoS protection and security, find out how we can help your site.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18929-cloudflare.jpg",
+			"humanURL": "https://www.cloudflare.com",
+			"baseURL": "https:///",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/cloudflare/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Hewlett Packard Enterprise (HPE)",
+			"x-api-slug": "hewlett-packard-enterprise-hpe",
+			"description": "We help customers use technology to slash the time it takes to turn ideas into value. In turn, they transform industries, markets and lives. Some of our customers run traditional IT environments. Most are transitioning to a secure, cloud-enabled, mobile-friendly infrastructure. Many rely on a combination of both. Wherever they are in that journey, we provide the technology and solutions to help them succeed.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png",
+			"humanURL": "http://HPE.com",
+			"baseURL": "https://deic02-hpe.hpeonesphere.com//rest",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/hewlett-packard-enterprise-hpe/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS RDS",
+			"x-api-slug": "aws-rds",
+			"description": "Amazon Relational Database Service (Amazon RDS) makes it easy to set up, operate, and scale arelational databasein the cloud. It provides cost-efficient and resizable capacity while managing time-consuming database administration tasks, freeing you up to focus on your applications and business. Amazon RDS provides you six familiar database engines to choose from, includingAmazon Aurora,PostgreSQL,MySQL,MariaDB,Oracle, andMicrosoft SQL Server.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png",
+			"humanURL": "https://aws.amazon.com/rds/",
+			"baseURL": ":///",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-rds/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Redshift",
+			"x-api-slug": "aws-redshift",
+			"description": "Amazon Redshift is a fast, fully managed, petabyte-scaledata warehousethat makes it simple and cost-effective to analyze all your data using your existing business intelligence tools. Start small for $0.25 per hour with no commitments and scale to petabytes for $1,000 per terabyte per year, less than a tenth the cost of traditional solutions. Customers typically see 3x compression, reducing their costs to $333 per uncompressed terabyte per year.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png",
+			"humanURL": "https://aws.amazon.com/redshift/",
+			"baseURL": ":///",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-redshift/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Inspector",
+			"x-api-slug": "aws-inspector",
+			"description": "Amazon Inspector is an automated security assessment service that helps improve the security and compliance of applications deployed on AWS. Amazon Inspector automatically assesses applications for vulnerabilities or deviations from best practices. After performing an assessment, Amazon Inspector produces a detailed list of security findings prioritized by level of severity.To help you get started quickly, Amazon Inspector includes a knowledge base of hundreds of rules mapped to common security best practices and vulnerability definitions. Examples of built-in rules include checking for remote root login being enabled, or vulnerable software versions installed. These rules are regularly updated by AWS security researchers.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AmazonInspector.png",
+			"humanURL": "https://aws.amazon.com/inspector/",
+			"baseURL": ":///",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-inspector/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Shield",
+			"x-api-slug": "aws-shield",
+			"description": "AWS Shield is a managed Distributed Denial of Service protection service that safeguards web applications running on AWS. AWS Shield provides always-on detection and automatic inline mitigations that minimize application downtime and latency, so there is no need to engage AWS Support to benefit from DDoS protection. There are two tiers of AWS Shield, Standard and Advanced. All AWS customers benefit from the automatic protections of AWS Shield Standard, at no additional charge. AWS Shield Standard defends against most common, frequently occurring network and transport layer DDoS attacks that target your web site or applications.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen Shot 2016-12-30 at 10.35.48 PM.png",
+			"humanURL": "https://aws.amazon.com/shield/",
+			"baseURL": ":///",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-shield/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Cognito",
+			"x-api-slug": "aws-cognito",
+			"description": "Amazon Cognito lets you easily add user sign-up and sign-in to your mobile and web apps. With Amazon Cognito, you also have the options to authenticate users through social identity providers such as Facebook, Twitter, or Amazon, with SAML identity solutions, or by using your own identity system. In addition, Amazon Cognito enables you to save data locally on users devices, allowing your applications to work even when the devices are offline. You can then synchronize data across users devices so that their app experience remains consistent regardless of the device they use. With Amazon Cognito, you can focus on creating great app experiences instead of worrying about building, securing, and scaling a solution to handle user management, authentication, and sync across devices.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png",
+			"humanURL": "https://aws.amazon.com/cognito/",
+			"baseURL": "https:///",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-cognito/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Simple Notification Service",
+			"x-api-slug": "aws-simple-notification-service",
+			"description": "Amazon Simple Notification Service (Amazon SNS) is a fast, flexible, fully managed push notification service that lets you send individual messages or to fan-out messages to large numbers of recipients. Amazon SNS makes it simple and cost effective to send push notifications to mobile device users, email recipients or even send messages to other distributed services.With Amazon SNS, you can send notifications to Apple, Google, Fire OS, and Windows devices, as well as to Android devices in China with Baidu Cloud Push. You can use SNS to send SMS messages to mobile device users worldwide.Beyond these endpoints, Amazon SNS can also deliver messages toAmazon Simple Queue Service(SQS),AWS Lambda functions, or to any HTTP endpoint.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png",
+			"humanURL": "https://aws.amazon.com/sns/",
+			"baseURL": ":///",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-simple-notification-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS WorkDocs",
+			"x-api-slug": "aws-workdocs",
+			"description": "Amazon WorkDocs is a fully managed, secure enterprise storage and sharing service with strong administrative controls and feedback capabilities that improve user productivity.Users can comment on files, send them to others for feedback, and upload new versions without having to resort to emailing multiple versions of their files as attachments. Users can take advantage of these capabilities wherever they are, using the device of their choice, including PCs, Macs, tablets and phones. Amazon WorkDocs offers IT administrators the option of integrating with existing corporate directories, flexible sharing policies and control of the location where data is stored. Customers can get started using Amazon WorkDocs with a 30-day free trial providing 1 TB of storage per user for up to 50 users.Amazon WorkDocs offers an Administrative SDK, currently in public preview. The Administrative SDK allows you to integrate your applications with Amazon WorkDocs by performing content and permissions updates, and managing users, programmatically. You can sign-up for the public preview here.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png",
+			"humanURL": "https://aws.amazon.com/workdocs/",
+			"baseURL": ":///",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-workdocs/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS EC2",
+			"x-api-slug": "aws-ec2",
+			"description": "Amazon Elastic Compute Cloud is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. Amazon EC2s simple web service interface allows you to obtain and configure capacity with minimal friction. It provides you with complete control of your computing resources and lets you run on Amazon&rsquo;s proven computing environment. Amazon EC2 reduces the time required to obtain and boot new server instances to minutes, allowing you to quickly scale capacity, both up and down, as your computing requirements change. Amazon EC2 changes the economics of computing by allowing you to pay only for capacity that you actually use. Amazon EC2 provides developers the tools to build failure resilient applications and isolate themselves from common failure scenarios.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png",
+			"humanURL": "https://aws.amazon.com/ec2/",
+			"baseURL": ":///",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-ec2/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Apps Admin SDK",
+			"x-api-slug": "google-apps-admin-sdk",
+			"description": "Administer domain resources, create reports, and manage subscriptions. Use the Directory API to create and manage users and groups for a domain, along with their aliases. Programmatically access the functionality found at the Admin console Organization and users tab. Use the Reports API to gain insights on content management with Google Drive activity reports. Audit administrator actions. Generate customer and user usage reports.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nexusae0_icon2.png",
+			"humanURL": "https://developers.google.com/admin-sdk/",
+			"baseURL": "https:///",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/google-apps-admin-sdk/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Play",
+			"x-api-slug": "google-play",
+			"description": "The Google Play Developer API allows you to perform a number of publishing and app-management tasks. It includes two components: The Subscriptions and In-App Purchases API lets you manage in-app purchases and subscriptions. The Publishing API lets you upload and publish apps, and perform other publishing-related tasks.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png",
+			"humanURL": "https://play.google.com/store",
+			"baseURL": "https:///",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/google-play/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Glass",
+			"x-api-slug": "google-glass",
+			"description": "Glass is fundamentally different than existing mobile platforms in both design and use. Follow these principles when building Glassware to give users the best experience.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen Shot 2017-03-16 at 11.10.43 PM.png",
+			"humanURL": "https://developers.google.com/glass/",
+			"baseURL": "://www.googleapis.com//mirror/v1",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/google-glass/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud Pub Sub",
+			"x-api-slug": "google-cloud-pub-sub",
+			"description": "Cloud Pub/Sub is a fully-managed real-time messaging service that allows you to send and receive messages between independent applications. You can leverage Cloud Pub/Sub&rsquo;s flexibility to decouple systems and components hosted on Google Cloud Platform or elsewhere on the Internet. By building on the same technology Google uses, Cloud Pub/Sub is designed to provide &ldquo;at least once&rdquo; delivery at low latency with on-demand scalability to 1 million messages per second (and beyond).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-pub-sub-middleware.png",
+			"humanURL": "https://cloud.google.com/pubsub/docs/",
+			"baseURL": "://pubsub.googleapis.com//",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/google-cloud-pub-sub/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Microsoft Graph",
+			"x-api-slug": "microsoft-graph",
+			"description": "Microsoft Graph exposes multiple APIs from Office 365 and other Microsoft cloud services through a single endpoint: https://graph.microsoft.com. Microsoft Graph simplifies queries that would otherwise be more complex. You can use Microsoft Graph to: Access data from multiple Microsoft cloud services, including Azure Active Directory, Exchange Online as part of Office 365, SharePoint, OneDrive, OneNote, and Planner. Navigate between entities and relationships. Access intelligence and insights from the Microsoft cloud (for commercial users).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png",
+			"humanURL": "https://developer.microsoft.com/en-us/graph/",
+			"baseURL": "https://graph.microsoft.com//",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/microsoft-graph/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure API Management",
+			"x-api-slug": "azure-api-management",
+			"description": "Use Azure API Management as a turnkey solution for publishing APIs to external and internal customers. Quickly create consistent and modern API gateways for existing back-end services hosted anywhere, secure and protect them from abuse and overuse, and get insights into usage and health. Plus, automate and scale developer onboarding to help get your API program up and running.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-api-management.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/api-management/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/azure-api-management/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Resource Manager",
+			"x-api-slug": "azure-resource-manager",
+			"description": "Azure Resource Manager enables you to deploy and manage the infrastructure for your Azure solutions. You organize related resources in resource groups, and deploy your resources with JSON templates. For an introduction to deploying and managing resources with Resource Manager, see Azure Resource Manager overview.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-resource-manager.png",
+			"humanURL": "https://docs.microsoft.com/en-us/rest/api/resources/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/azure-resource-manager/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Service Bus",
+			"x-api-slug": "azure-service-bus",
+			"description": "Depend on Azure Service Bus when you need highly-reliable cloud messaging service between applications and services, even when one or more is offline. Available in every Azure region, this fully-managed service eliminates the burdens of server management and licensing. Asynchronous operations give you flexible, brokered messaging between client and server, along with structured first-in, first-out (FIFO) messaging, and publish/subscribe capabilities&mdash;excellent for tasks like order processing.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-service-bus-anything.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/service-bus/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/azure-service-bus/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Steem",
+			"x-api-slug": "steem",
+			"description": "A new way for publishers to monetize their online content and community, based on battle-tested blockchain technology.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26649-steemit.jpg",
+			"humanURL": "http://steemit.com",
+			"baseURL": "https://api.steemjs.com//",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/steem/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AXA Assistance",
+			"x-api-slug": "axa-assistance",
+			"description": "AXA Assistance is a worldwide specialist for car insurance, travel, health and home services. Trust in Axa Assistance for your insurance!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28187-www-axa-assistance-com.jpg",
+			"humanURL": "https://www.axa-assistance.com",
+			"baseURL": "https://sandbox.api.axa-assistance.com//",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/axa-assistance/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lufthansa",
+			"x-api-slug": "lufthansa",
+			"description": "Book your flights to Germany, Italy, UK or France online at attractive low fares. Fly via Frankfurt, Munich or Zurich - Lufthansa United States of America",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28453-lh-partner.jpg",
+			"humanURL": "http://lufthansa.com",
+			"baseURL": "https://api.lufthansa.com//v1",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/lufthansa/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rebilly",
+			"x-api-slug": "rebilly",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png",
+			"humanURL": "https://www.rebilly.com",
+			"baseURL": "https://api.rebilly.com//v2.1",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/rebilly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Ship Station",
+			"x-api-slug": "ship-station",
+			"description": "ShipStation is a web-based shipping solution that streamlines the order fulfillment process for your online business. ShipStation consolidates orders from over 70 ecommerce channels, creates shipping labels, packing slips, and pick lists in batch, communicates tracking information to your customers, provides endless automation, filters, and views, wireless printing, a mobile app, and a lot more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ShipStation-stacked-blue.png",
+			"humanURL": "http://bit.ly/_ShipStation",
+			"baseURL": "https://ssapi.shipstation.com//",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/ship-station/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Trello",
+			"x-api-slug": "trello",
+			"description": "Trusted by millions, Trello is the visual collaboration tool that creates a shared perspective on any project. Trello&rsquo;s boards, lists and cards enable you to organize and prioritize your personal and work life in a fun, flexible and rewarding way.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/trello-logo.png",
+			"humanURL": "http://trello.com",
+			"baseURL": "https://trello.com//1",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/trello/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "uebermaps",
+			"x-api-slug": "uebermaps",
+			"description": "uebermaps is a platform for everyone to create and share maps with your favorite spots. uebermaps are interactive maps that enable people to collect interesting places, collaborate, upload photos and share your public or private maps with your friends and family. If you use uebermaps for your mapping community, as a tour guide for friends or as your unlimited geo storage is up to you.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uebermaps.png",
+			"humanURL": "http://uebermaps.com",
+			"baseURL": "https://uebermaps.com//api/v2",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/uebermaps/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "EU VAT API",
+			"x-api-slug": "eu-vat-api",
+			"description": "A developer friendly API to help your business achieve VAT compliance. Are you selling digital services to other EU countries? From Jan 1st 2015 changes to the VAT place of supply are coming into effect. One acceptable way to prove where your customer resides is their IP address. We have removed the headache and cost of you having to geo locate your customers IP address, and workout what VAT rate they should be charged. Simply pass your customers IP address from your application to our API and well return a JSON or XML object of all the current EU VAT rates for that country, or if you already know their country you can lookup the rates from the 2 digit country code.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/vatapi-logo.png",
+			"humanURL": "http://vatapi.com",
+			"baseURL": "https://vatapi.com//v1",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/eu-vat-api/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OnSched",
+			"x-api-slug": "onsched",
+			"description": "Build secure and scalable custom apps for Online Booking. Our flexible API provides many options for availability and booking. OnSched is an API first booking software that allows you to bring your design to life by creating your own booking flow. Using our robust API you can customize the interaction between your consumers and vendors while we do all the leg work behind the scenes. Want to offer online booking to your vendors? Ask about our white labelling solutions and rebrand our software as your own.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/onsched-logo.png",
+			"humanURL": "http://www.onsched.com",
+			"baseURL": "https://api.onsched.com//",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/onsched/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Predix",
+			"x-api-slug": "predix",
+			"description": "Predix (IoT PaaS) helps you develop apps that connect people with industrial machines through analytics and data for better business outcomes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png",
+			"humanURL": "https://www.predix.io",
+			"baseURL": "https:////v1",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/predix/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GitLab",
+			"x-api-slug": "gitlab",
+			"description": "GitLab is a web-based Git-repository manager with wiki, issue-tracking and CI/CD pipelines features, using an open-source license, developed by GitLab Inc.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png",
+			"humanURL": "http://gitlab.com",
+			"baseURL": "https://localhost:3000//api",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/gitlab/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "RingCentral",
+			"x-api-slug": "ringcentral",
+			"description": "RingCentral, Inc. (NYSE: RNG) is a global provider of cloud enterprise unified communications and collaboration solutions. More flexible and cost-effective than legacy on-premise systems, RingCentral empowers today&rsquo;s mobile and distributed workforces to be connected anywhere and on any device through voice, video, team messaging, collaboration, SMS, conferencing, online meetings, contact center, and fax. RingCentral provides an open platform that integrates with today&rsquo;s leading business apps while giving customers the flexibility to customize their own workflows.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg",
+			"humanURL": "http://www.ringcentral.com",
+			"baseURL": "https://platform.ringcentral.com//",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/ringcentral/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Vinli",
+			"x-api-slug": "vinli",
+			"description": "Vinli - The easiest, most advanced connected-car system in the world. Vinli is a platform for easily and quickly building connected car apps. Apps get vehicle data through Vinli services.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28875-www-vin-li.jpg",
+			"humanURL": "http://vinli.com",
+			"baseURL": "https://events.vin.li//api/v1",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/vinli/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/dezrez/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Docsmore",
+			"x-api-slug": "docsmore",
+			"description": "FORM.FILL.SIGN - With Docsmore, the process of setting up a form and sending to users to complete or sign is simplified.  Use our platform to easily upload a document, specify form fields/signage, and send to users for completion.  Present forms to you...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28946-api-docsmore-com.jpg",
+			"humanURL": "http://api.docsmore.com",
+			"baseURL": "https://api.docsmore.com//",
+			"tags": "Subscriptions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/docsmore/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Subscriptions",
+	"include": [
+		{
+			"name": "Urban Airship",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/urban-airship/apis.yaml"
+		},
+		{
+			"name": "GitHub",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/github/apis.yaml"
+		},
+		{
+			"name": "SendGrid",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/sendgrid/apis.yaml"
+		},
+		{
+			"name": "Diffbot",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/diffbot/apis.yaml"
+		},
+		{
+			"name": "Disqus",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/disqus/apis.yaml"
+		},
+		{
+			"name": "Facebook",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/facebook/apis.yaml"
+		},
+		{
+			"name": "Fitbit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/fitbit/apis.yaml"
+		},
+		{
+			"name": "Stripe",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/stripe/apis.yaml"
+		},
+		{
+			"name": "PowerInbox",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/powerinbox/apis.yaml"
+		},
+		{
+			"name": "Pingdom",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/pingdom/apis.yaml"
+		},
+		{
+			"name": "Boxcar",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/boxcar/apis.yaml"
+		},
+		{
+			"name": "Instructure",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/instructure/apis.yaml"
+		},
+		{
+			"name": "Plivo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/plivo/apis.yaml"
+		},
+		{
+			"name": "ChargeBee",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/chargebee/apis.yaml"
+		},
+		{
+			"name": "Tinypass",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/tinypass/apis.yaml"
+		},
+		{
+			"name": "MySpace Developers",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/myspace-developers/apis.yaml"
+		},
+		{
+			"name": "Reddit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/reddit/apis.yaml"
+		},
+		{
+			"name": "Meetup",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/meetup/apis.yaml"
+		},
+		{
+			"name": "BillingOrchard",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/billingorchard/apis.yaml"
+		},
+		{
+			"name": "Mynewsdesk",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/mynewsdesk/apis.yaml"
+		},
+		{
+			"name": "YouTube",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/youtube/apis.yaml"
+		},
+		{
+			"name": "CloudFlare",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/cloudflare/apis.yaml"
+		},
+		{
+			"name": "Hewlett Packard Enterprise (HPE)",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/hewlett-packard-enterprise-hpe/apis.yaml"
+		},
+		{
+			"name": "AWS RDS",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-rds/apis.yaml"
+		},
+		{
+			"name": "AWS Redshift",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-redshift/apis.yaml"
+		},
+		{
+			"name": "AWS Inspector",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-inspector/apis.yaml"
+		},
+		{
+			"name": "AWS Shield",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-shield/apis.yaml"
+		},
+		{
+			"name": "AWS Cognito",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-cognito/apis.yaml"
+		},
+		{
+			"name": "AWS Simple Notification Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-simple-notification-service/apis.yaml"
+		},
+		{
+			"name": "AWS WorkDocs",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-workdocs/apis.yaml"
+		},
+		{
+			"name": "AWS EC2",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/aws-ec2/apis.yaml"
+		},
+		{
+			"name": "Google Apps Admin SDK",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/google-apps-admin-sdk/apis.yaml"
+		},
+		{
+			"name": "Google Play",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/google-play/apis.yaml"
+		},
+		{
+			"name": "Google Glass",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/google-glass/apis.yaml"
+		},
+		{
+			"name": "Google Cloud Pub Sub",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/google-cloud-pub-sub/apis.yaml"
+		},
+		{
+			"name": "Microsoft Graph",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/microsoft-graph/apis.yaml"
+		},
+		{
+			"name": "Azure API Management",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/azure-api-management/apis.yaml"
+		},
+		{
+			"name": "Azure Resource Manager",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/azure-resource-manager/apis.yaml"
+		},
+		{
+			"name": "Azure Service Bus",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/azure-service-bus/apis.yaml"
+		},
+		{
+			"name": "Steem",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/steem/apis.yaml"
+		},
+		{
+			"name": "AXA Assistance",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/axa-assistance/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "Lufthansa",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/lufthansa/apis.yaml"
+		},
+		{
+			"name": "Rebilly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/rebilly/apis.yaml"
+		},
+		{
+			"name": "Ship Station",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/ship-station/apis.yaml"
+		},
+		{
+			"name": "Trello",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/trello/apis.yaml"
+		},
+		{
+			"name": "uebermaps",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/uebermaps/apis.yaml"
+		},
+		{
+			"name": "EU VAT API",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/eu-vat-api/apis.yaml"
+		},
+		{
+			"name": "OnSched",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/onsched/apis.yaml"
+		},
+		{
+			"name": "Predix",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/predix/apis.yaml"
+		},
+		{
+			"name": "GitLab",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/gitlab/apis.yaml"
+		},
+		{
+			"name": "RingCentral",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/ringcentral/apis.yaml"
+		},
+		{
+			"name": "Vinli",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/vinli/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/dezrez/apis.yaml"
+		},
+		{
+			"name": "Docsmore",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/subscriptions/master/_listings/docsmore/apis.yaml"
+		}
+	]
+}

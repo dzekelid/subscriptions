@@ -1,11 +1,8 @@
----
 swagger: "2.0"
 x-collection-name: GitHub
 x-complete: 1
 info:
   title: GitHub
-  description: github-is-the-best-place-to-share-code-with-friends-coworkers-classmates-and-complete-strangers--over-24-million-people-use-github-to-build-amazing-things-together-across-67-million-repositories--with-the-collaborative-features-of-github-com-and-github-business-it-has-never-been-easier-for-individuals-and-teams-to-write-faster-better-code-
-  termsOfService: https://help.github.com/articles/github-terms-of-service/#b-api-terms
   version: 1.0.0
 host: api.github.com
 basePath: /
@@ -137,4 +134,164 @@ paths:
       - Users
       - Username
       - Subscriptions
----
+  /notifications/threads/{id}/subscription:
+    delete:
+      summary: Delete Notifications Threads  Subscription
+      description: Delete a Thread Subscription.
+      operationId: delete-a-thread-subscription
+      x-api-path-slug: notificationsthreadsidsubscription-delete
+      parameters:
+      - in: header
+        name: Accept
+        description: Is used to set specified media type
+      - in: query
+        name: access_token
+        description: Your Github OAuth token
+      - in: path
+        name: id
+        description: Id of thread
+      responses:
+        200:
+          description: OK
+      tags:
+      - Notifications
+      - Threads
+      - ""
+      - Subscription
+    get:
+      summary: Get Notifications Threads  Subscription
+      description: Get a Thread Subscription.
+      operationId: get-a-thread-subscription
+      x-api-path-slug: notificationsthreadsidsubscription-get
+      parameters:
+      - in: header
+        name: Accept
+        description: Is used to set specified media type
+      - in: query
+        name: access_token
+        description: Your Github OAuth token
+      - in: path
+        name: id
+        description: Id of thread
+      responses:
+        200:
+          description: OK
+      tags:
+      - Notifications
+      - Threads
+      - ""
+      - Subscription
+    put:
+      summary: Put Notifications Threads  Subscription
+      description: |-
+        Set a Thread Subscription.
+        This lets you subscribe to a thread, or ignore it. Subscribing to a thread
+        is unnecessary if the user is already subscribed to the repository. Ignoring
+        a thread will mute all future notifications (until you comment or get @mentioned).
+      operationId: set-a-thread-subscriptionthis-lets-you-subscribe-to-a-thread-or-ignore-it-subscribing-to-a-threadis-
+      x-api-path-slug: notificationsthreadsidsubscription-put
+      parameters:
+      - in: header
+        name: Accept
+        description: Is used to set specified media type
+      - in: query
+        name: access_token
+        description: Your Github OAuth token
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: id
+        description: Id of thread
+      responses:
+        200:
+          description: OK
+      tags:
+      - Notifications
+      - Threads
+      - ""
+      - Subscription
+  /repos/{owner}/{repo}/subscription:
+    delete:
+      summary: Delete Repos Owner Repo Subscription
+      description: Delete a Repository Subscription.
+      operationId: delete-a-repository-subscription
+      x-api-path-slug: reposownerreposubscription-delete
+      parameters:
+      - in: header
+        name: Accept
+        description: Is used to set specified media type
+      - in: query
+        name: access_token
+        description: Your Github OAuth token
+      - in: path
+        name: owner
+        description: Name of repository owner
+      - in: path
+        name: repo
+        description: Name of repository
+      responses:
+        200:
+          description: OK
+      tags:
+      - Repos
+      - Owner
+      - Repo
+      - Subscription
+    get:
+      summary: Get Repos Owner Repo Subscription
+      description: Get a Repository Subscription.
+      operationId: get-a-repository-subscription
+      x-api-path-slug: reposownerreposubscription-get
+      parameters:
+      - in: header
+        name: Accept
+        description: Is used to set specified media type
+      - in: query
+        name: access_token
+        description: Your Github OAuth token
+      - in: path
+        name: owner
+        description: Name of repository owner
+      - in: path
+        name: repo
+        description: Name of repository
+      responses:
+        200:
+          description: OK
+      tags:
+      - Repos
+      - Owner
+      - Repo
+      - Subscription
+    put:
+      summary: Put Repos Owner Repo Subscription
+      description: Set a Repository Subscription
+      operationId: set-a-repository-subscription
+      x-api-path-slug: reposownerreposubscription-put
+      parameters:
+      - in: header
+        name: Accept
+        description: Is used to set specified media type
+      - in: query
+        name: access_token
+        description: Your Github OAuth token
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: owner
+        description: Name of repository owner
+      - in: path
+        name: repo
+        description: Name of repository
+      responses:
+        200:
+          description: OK
+      tags:
+      - Repos
+      - Owner
+      - Repo
+      - Subscription

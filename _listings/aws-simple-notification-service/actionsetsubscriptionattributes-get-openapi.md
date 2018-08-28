@@ -117,6 +117,31 @@ paths:
           description: OK
       tags:
       - Subscriptions
+  /?Action=Subscribe:
+    get:
+      summary: Subscribe
+      description: Prepares to subscribe an endpoint by sending the endpoint a confirmation
+        message.
+      operationId: subscribe
+      x-api-path-slug: actionsubscribe-get
+      parameters:
+      - in: query
+        name: Endpoint
+        description: The endpoint that you want to receive notifications
+        type: string
+      - in: query
+        name: Protocol
+        description: The protocol you want to use
+        type: string
+      - in: query
+        name: TopicArn
+        description: The ARN of the topic you want to subscribe to
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Endpoints
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

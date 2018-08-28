@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS Simple Notification Service
 x-complete: 1
@@ -115,4 +114,28 @@ paths:
           description: OK
       tags:
       - Subscriptions
----
+  /?Action=Subscribe:
+    get:
+      summary: Subscribe
+      description: Prepares to subscribe an endpoint by sending the endpoint a confirmation
+        message.
+      operationId: subscribe
+      x-api-path-slug: actionsubscribe-get
+      parameters:
+      - in: query
+        name: Endpoint
+        description: The endpoint that you want to receive notifications
+        type: string
+      - in: query
+        name: Protocol
+        description: The protocol you want to use
+        type: string
+      - in: query
+        name: TopicArn
+        description: The ARN of the topic you want to subscribe to
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Endpoints

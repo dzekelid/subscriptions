@@ -55,6 +55,92 @@ paths:
           description: OK
       tags:
       - Subscriptions
+  /?Action=ListSubscriptions:
+    get:
+      summary: List Subscriptions
+      description: Returns a list of the requester's subscriptions.
+      operationId: listSubscriptions
+      x-api-path-slug: actionlistsubscriptions-get
+      parameters:
+      - in: query
+        name: NextToken
+        description: Token returned by the previous ListSubscriptions request
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Subscriptions
+  /?Action=ListSubscriptionsByTopic:
+    get:
+      summary: List Subscriptions By Topic
+      description: Returns a list of the subscriptions to a specific topic.
+      operationId: listSubscriptionsByTopic
+      x-api-path-slug: actionlistsubscriptionsbytopic-get
+      parameters:
+      - in: query
+        name: NextToken
+        description: Token returned by the previous ListSubscriptionsByTopic request
+        type: string
+      - in: query
+        name: TopicArn
+        description: The ARN of the topic for which you wish to find subscriptions
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Subscriptions
+  /?Action=SetSubscriptionAttributes:
+    get:
+      summary: Set Subscription Attributes
+      description: Allows a subscription owner to set an attribute of the topic to
+        a new value.
+      operationId: setSubscriptionAttributes
+      x-api-path-slug: actionsetsubscriptionattributes-get
+      parameters:
+      - in: query
+        name: AttributeName
+        description: The name of the attribute you want to set
+        type: string
+      - in: query
+        name: AttributeValue
+        description: The new value for the attribute in JSON format
+        type: string
+      - in: query
+        name: SubscriptionArn
+        description: The ARN of the subscription to modify
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Subscriptions
+  /?Action=Subscribe:
+    get:
+      summary: Subscribe
+      description: Prepares to subscribe an endpoint by sending the endpoint a confirmation
+        message.
+      operationId: subscribe
+      x-api-path-slug: actionsubscribe-get
+      parameters:
+      - in: query
+        name: Endpoint
+        description: The endpoint that you want to receive notifications
+        type: string
+      - in: query
+        name: Protocol
+        description: The protocol you want to use
+        type: string
+      - in: query
+        name: TopicArn
+        description: The ARN of the topic you want to subscribe to
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Endpoints
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Urban Airship
 x-complete: 1
@@ -105,4 +104,24 @@ paths:
       - Content
       - Id
       - Download
----
+  /user/{user_id}/subscription_content:
+    get:
+      summary: Get User User Subscription Content
+      description: Returns a list of available content.
+      operationId: user.user_id.subscription_content.get
+      x-api-path-slug: useruser-idsubscription-content-get
+      parameters:
+      - in: query
+        name: user_id
+        description: User ID
+      - in: path
+        name: user_id
+      responses:
+        200:
+          description: OK
+      tags:
+      - User
+      - User
+      - Id
+      - Subscription
+      - Content
